@@ -59,8 +59,9 @@ var loanChart = new Chart(ctx, {
 					}
 				}
 			}]
-		}
-	}
+		},
+		responsive: true,
+		maintainAspectRatio: false
 });
 
 // create loans array to be compared between form submissions
