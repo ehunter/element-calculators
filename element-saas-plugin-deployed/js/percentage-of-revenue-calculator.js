@@ -66,7 +66,9 @@ var loanChart = new Chart(ctx, {
 					}
 				}
 			}]
-		}
+		},
+		responsive: true,
+		maintainAspectRatio: false
 	}
 });
 

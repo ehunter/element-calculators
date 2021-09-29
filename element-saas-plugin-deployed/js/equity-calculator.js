@@ -54,7 +54,9 @@ var financingChart = new Chart(ctx, {
           beginAtZero: true,
 				}
 			}]
-		}
+		},
+    responsive: true,
+    maintainAspectRatio: false
 	}
 });
 
